@@ -389,7 +389,7 @@ print('NumPy Version:', numpy.version.version)
                   theme={vscodeDark}
                 />
                 <br></br>
-                <img src={state.b64ImageFreq} width="490px" alt="hit run to load" />
+                <img src={state.b64ImageFreq} width="490px" alt="frequency domain tab image" />
               </div>
             )}
             {currentTab === 'time' && (
@@ -403,7 +403,7 @@ print('NumPy Version:', numpy.version.version)
                   theme={vscodeDark}
                 />
                 <br></br>
-                <img src={state.b64ImageTime} width="490px" alt="hit run to load" />
+                <img src={state.b64ImageTime} width="490px" alt="time domain tab image" />
               </div>
             )}
             {currentTab === 'iq' && (
@@ -417,7 +417,7 @@ print('NumPy Version:', numpy.version.version)
                   theme={vscodeDark}
                 />
                 <br></br>
-                <img src={state.b64ImageIQ} width="490px" alt="hit run to load" />
+                <img src={state.b64ImageIQ} width="490px" alt="IQ tab image" />
               </div>
             )}
             {currentTab === 'spectrogram' && (
@@ -431,7 +431,7 @@ print('NumPy Version:', numpy.version.version)
                   theme={vscodeDark}
                 />
                 <br></br>
-                <img src={state.b64ImageSpectrogram} width="490px" alt="hit run to load" />
+                <img src={state.b64ImageSpectrogram} width="490px" alt="Spectrogram tab image" />
               </div>
             )}
           </div>
